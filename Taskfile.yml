@@ -1,0 +1,20 @@
+version: '3'
+
+tasks:
+  labelify:
+    desc: Check that catalogue and all vocabs have labels
+    cmds:
+      - pyshacl -s _scripts/vocpub-4.10.ttl {{.CLI_ARGS}}
+  validate:
+    desc: Check that a vocab is valida according to VocPub
+    cmds:
+      - pyshacl -s _scripts/vocpub-4.10.ttl -f table {{.CLI_ARGS}}
+  tidy:
+    desc: Reformat model ttl file
+    cmds:
+      - python scripts/reformat_ttl.py model.ttl
+      - echo "RDF tidied"
+  rdf:
+    desc: check the validity of an RDF file
+    cmds:
+      - python _scripts/validate_rdf.py {{.CLI_ARGS}}

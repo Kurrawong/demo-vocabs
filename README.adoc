@@ -1,0 +1,20 @@
+== Prez resources
+
+This listing of the resources in this repository is used by the https://kurrawong.ai/products/prez/[Prez System] to display the vocabularies correctly.
+
+|===
+| Resource             | Location                                                                                                              | Notes
+
+| Catalogue Definition | `catalogue.ttl`                                                                                                       |
+| Items                | `./vocabs/*.ttl`                                                                                                   | Multiple ttl files in multiple subfolders
+| Profile Definition   | https://github.com/RDFLib/prez/blob/main/prez/reference_data/profiles/ogc_records_profile.ttl[Prez Records Profile] | Default Prez profile for Records API
+| Context Resources    | `_background/*.ttl`                                                                                                   | Multiple labels files for ontologies, licenses & agents
+|===
+
+== Vocab testing process
+
+1. Install packages listed in pyproject.toml
+2. Use scripts top validate all vocabs: `pytest`
+3. Use `tests/labelify_all.py` to identify any missing labels
+    * add any missing to `_background`
+4. Manually create/update the `cattalogue.ttl` file

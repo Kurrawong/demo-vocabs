@@ -1,0 +1,38 @@
+PREFIX : <https://example.com/demo-vocabs/image-test/>
+PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
+PREFIX cs: <https://example.com/demo-vocabs/image-test>
+PREFIX droles: <https://linked.data.gov.au/def/data-roles/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg: <http://purl.org/linked-data/registry#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX unggim: <https://linked.data.gov.au/def/unggim-themes/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:closed
+    a skos:Concept ;
+    skos:definition "Internal use only"@en ;
+    skos:historyNote "Queensland Roads and Tracks dataset" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Closed"@en ;
+.
+
+:1.0 rdfs:label "1.0" .
+
+cs:
+    a skos:ConceptScheme ;
+    reg:status astatus:experimental ;
+    skos:definition "This vocabulary is a test vocabulary showing the use of images within Concept definitions"@en ;
+    skos:hasTopConcept
+        :test-equation ,
+        :test-image ,
+        :test-equation-and-image ;
+    skos:historyNote "Mae in Nov 2024 just for testing" ;
+    skos:prefLabel "Image Test Vocabulary"@en ;
+    schema:creator <https://kurrawong.ai> ;
+    schema:dateCreated "2024-11-20"^^xsd:date ;
+    schema:dateModified "2024-11-20"^^xsd:date ;
+    schema:publisher <https://kurrawong.ai> ;
+.

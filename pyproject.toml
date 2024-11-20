@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "demo-vocabs"
+version = "0.1.0"
+description = "A catalogue of vocabularies for demonstration purposes"
+authors = ["Nicholas Car <nick@kurrawong.ai>"]
+license = "Creative Commons BY 4.0"
+readme = "README.md"
+packages = [{include = "demo_vocabs"}]
+
+[tool.poetry.dependencies]
+python = ">=3.12,<4.0"
+labelify = {git = "https://github.com/Kurrawong/labelify"}
+pyshacl = "^0.29.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
