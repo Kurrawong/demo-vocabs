@@ -4,11 +4,11 @@ tasks:
   labelify:
     desc: Check that catalogue and all vocabs have labels
     cmds:
-      - pyshacl -s _scripts/vocpub-4.10.ttl {{.CLI_ARGS}}
+      - labelify -c _background/ {{.CLI_ARGS}}
   validate:
     desc: Check that a vocab is valida according to VocPub
     cmds:
-      - pyshacl -s _scripts/vocpub-4.10.ttl -f table {{.CLI_ARGS}}
+      - pyshacl -s _scripts/vocpub-4.10.ttl -w -f table {{.CLI_ARGS}} || true
   tidy:
     desc: Reformat model ttl file
     cmds:

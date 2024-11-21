@@ -1,3 +1,7 @@
+= Demo Vocabs
+
+These vocabs are dummy/demo vocabs created for https://kurrawong.ai/products/prez/[Prez System] testing.
+
 == Prez resources
 
 This listing of the resources in this repository is used by the https://kurrawong.ai/products/prez/[Prez System] to display the vocabularies correctly.
