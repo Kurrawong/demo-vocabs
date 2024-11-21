@@ -17,8 +17,9 @@ This listing of the resources in this repository is used by the https://kurrawon
 
 == Vocab testing process
 
-1. Install packages listed in pyproject.toml
-2. Use scripts top validate all vocabs: `pytest`
-3. Use `tests/labelify_all.py` to identify any missing labels
-    * add any missing to `_background`
-4. Manually create/update the `cattalogue.ttl` file
+Use the various task in the Taskfile:
+
+* `task labelify -- catalogue.ttl` - tests for labels in the `catalogue.ttl` file using the `_background` folder as context
+* `task validate -- vocabs/language-test.ttl` - validates the `language-test.ttl` file using VocPub 4.10
+
+If you can't run Taskfile, use the shell commands it contains directly
