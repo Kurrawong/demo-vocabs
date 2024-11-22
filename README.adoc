@@ -12,7 +12,7 @@ This listing of the resources in this repository is used by the https://kurrawon
 | Catalogue Definition | `catalogue.ttl`                                                                                                       |
 | Items                | `./vocabs/*.ttl`                                                                                                   | Multiple ttl files in multiple subfolders
 | Profile Definition   | https://github.com/RDFLib/prez/blob/main/prez/reference_data/profiles/ogc_records_profile.ttl[Prez Records Profile] | Default Prez profile for Records API
-| Context Resources    | `_background/*.ttl`                                                                                                   | Multiple labels files for ontologies, licenses & agents
+| Context Resources    | `_background/annotations.ttl`                                                                                                   | Multiple labels files for ontologies, licenses & agents
 |===
 
 == Vocab testing process

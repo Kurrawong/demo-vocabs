@@ -8,7 +8,7 @@ python-versions = ">=3.8"
 
 [[package]]
 name = "labelify"
-version = "0.1.5"
+version = "0.2.0"
 description = "Analyse an RDF graph to find URI's without human readable labels."
 category = "main"
 optional = false
@@ -23,7 +23,7 @@ sparqlwrapper = "^2.0.0"
 type = "git"
 url = "https://github.com/Kurrawong/labelify"
 reference = "HEAD"
-resolved_reference = "f247f0a51e060dc419a88fb2cf71151180a66b5d"
+resolved_reference = "8df41f8f41be5c1e71582707ae55f764c56185a8"
 
 [[package]]
 name = "owlrl"
