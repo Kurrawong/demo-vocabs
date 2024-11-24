@@ -80,6 +80,17 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "English prefLabel"@en ;
 .
 
+:en-id-labels
+    a skos:Concept ;
+    skos:altLabel
+        altLabel: "Bioinvasion"@en,
+        altLabel: "Bioinvasi"@id;
+
+    skos:inScheme cs: ;
+    skos:prefLabel 
+        prefLabel: "Biological invasions"@en ,
+        prefLabel: "Invasi hayati"@id;
+.
 
 :three-lang
     a skos:Concept ;
@@ -123,6 +134,7 @@ cs:
         :lang-and-no-lang ,
         :en-variant ,
         :altlabels ,
+        :en-id-labels ,
         :three-lang ;
     skos:historyNote "Made in Nov 2024 just for testing" ;
     skos:prefLabel "Image Languages Vocabulary"@en ;
