@@ -83,13 +83,13 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :en-id-labels
     a skos:Concept ;
     skos:altLabel
-        altLabel: "Bioinvasion"@en,
-        altLabel: "Bioinvasi"@id;
+        "Bioinvasion"@en ,
+        "Bioinvasi"@id ;
 
     skos:inScheme cs: ;
     skos:prefLabel 
-        prefLabel: "Biological invasions"@en ,
-        prefLabel: "Invasi hayati"@id;
+        "Biological invasions"@en ,
+        "Invasi hayati"@id ;
 .
 
 :three-lang
