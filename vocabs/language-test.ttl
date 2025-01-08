@@ -87,7 +87,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "Bioinvasi"@id ;
 
     skos:inScheme cs: ;
-    skos:prefLabel 
+    skos:prefLabel
         "Biological invasions"@en ,
         "Invasi hayati"@id ;
 .
