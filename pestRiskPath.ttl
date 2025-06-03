@@ -1,50 +1,30 @@
-<http://example.com/pestRiskPath> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
-<http://example.com/pestRiskPath> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pest Risk Pathway"@en .
-<http://example.com/pestRiskPath> <http://www.w3.org/2004/02/skos/core#definition> "A vocabulary describing various structures, modes and activities that introduce unwanted pests, weeds and diseases."@en .
-<http://example.com/pestRiskPath/0cade264-c648-4417-be04-063e9ca458b1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://example.com/pestRiskPath/0cade264-c648-4417-be04-063e9ca458b1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Animal dispersal"@en .
-<http://example.com/pestRiskPath/0cade264-c648-4417-be04-063e9ca458b1> <http://www.w3.org/2004/02/skos/core#definition> "Dispersal of pests by animals."@en .
-<http://example.com/pestRiskPath/0cade264-c648-4417-be04-063e9ca458b1> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.com/pestRiskPath> .
-<http://example.com/pestRiskPath/0cade264-c648-4417-be04-063e9ca458b1> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://example.com/pestRiskPath> .
-<http://example.com/pestRiskPath/81df7d51-87ba-43e7-9f5c-b192dd5b4b64> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://example.com/pestRiskPath/81df7d51-87ba-43e7-9f5c-b192dd5b4b64> <http://www.w3.org/2004/02/skos/core#prefLabel> "Plant hosts"@en .
-<http://example.com/pestRiskPath/81df7d51-87ba-43e7-9f5c-b192dd5b4b64> <http://www.w3.org/2004/02/skos/core#definition> "Plants that support the growth and development of pests, acting as a source of food, shelter, and sometimes even a breeding ground."@en .
-<http://example.com/pestRiskPath/81df7d51-87ba-43e7-9f5c-b192dd5b4b64> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.com/pestRiskPath> .
-<http://example.com/pestRiskPath/157a5f8d-49ba-4666-9ae6-1be40d7ac6c7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://example.com/pestRiskPath/157a5f8d-49ba-4666-9ae6-1be40d7ac6c7> <http://www.w3.org/2004/02/skos/core#prefLabel> "Spore dispersal"@en .
-<http://example.com/pestRiskPath/2687143e-8f91-4c7a-8caa-e387cfea7ad8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://example.com/pestRiskPath/2687143e-8f91-4c7a-8caa-e387cfea7ad8> <http://www.w3.org/2004/02/skos/core#prefLabel> "Human dispersal"@en .
-<http://example.com/pestRiskPath/2687143e-8f91-4c7a-8caa-e387cfea7ad8> <http://www.w3.org/2004/02/skos/core#definition> "Dispersal of pests through various activities, including the intentional and unintentional transport of commodities, plants, and other items."@en .
-<http://example.com/pestRiskPath/3a0b843e-665b-4c2e-b8a6-e97a572cf58e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://example.com/pestRiskPath/3a0b843e-665b-4c2e-b8a6-e97a572cf58e> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cargo"@en .
-<http://example.com/pestRiskPath/3a0b843e-665b-4c2e-b8a6-e97a572cf58e> <http://www.w3.org/2004/02/skos/core#definition> "Cargo"@en .
-<http://example.com/pestRiskPath/3a0b843e-665b-4c2e-b8a6-e97a572cf58e> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.com/pestRiskPath> .
-<http://example.com/pestRiskPath/3a0b843e-665b-4c2e-b8a6-e97a572cf58e> <http://www.w3.org/2004/02/skos/core#broader> <http://example.com/pestRiskPath/2687143e-8f91-4c7a-8caa-e387cfea7ad8> .
-<http://example.com/pestRiskPath/34a4620f-f6ae-4f7e-9665-c0a2d8e960f2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://example.com/pestRiskPath/34a4620f-f6ae-4f7e-9665-c0a2d8e960f2> <http://www.w3.org/2004/02/skos/core#prefLabel> "Shipping containers"@en .
-<http://example.com/pestRiskPath/34a4620f-f6ae-4f7e-9665-c0a2d8e960f2> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.com/pestRiskPath> .
-<http://example.com/pestRiskPath/34a4620f-f6ae-4f7e-9665-c0a2d8e960f2> <http://www.w3.org/2004/02/skos/core#broader> <http://example.com/pestRiskPath/3a0b843e-665b-4c2e-b8a6-e97a572cf58e> .
-<http://example.com/pestRiskPath/aa806b5f-c4ce-40cf-ac9b-3c5515e5c7c1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://example.com/pestRiskPath/aa806b5f-c4ce-40cf-ac9b-3c5515e5c7c1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mail articles"@en .
-<http://example.com/pestRiskPath/aa806b5f-c4ce-40cf-ac9b-3c5515e5c7c1> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.com/pestRiskPath> .
-<http://example.com/pestRiskPath/4d63b81b-7b6e-408b-b7d7-925bd0ffce09> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://example.com/pestRiskPath/4d63b81b-7b6e-408b-b7d7-925bd0ffce09> <http://www.w3.org/2004/02/skos/core#prefLabel> "Animal smuggling"@en .
-<http://example.com/pestRiskPath/4d63b81b-7b6e-408b-b7d7-925bd0ffce09> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.com/pestRiskPath> .
-<http://example.com/pestRiskPath/06bcd496-a591-4d0d-89c5-e6c48c5e8b4a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://example.com/pestRiskPath/06bcd496-a591-4d0d-89c5-e6c48c5e8b4a> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wildlife trafficking"@en .
-<http://example.com/pestRiskPath/06bcd496-a591-4d0d-89c5-e6c48c5e8b4a> <http://www.w3.org/2004/02/skos/core#definition> "The illegal gathering and trade of endangered species and protected wildlife, including plants and byproducts or products utilizing a species."@en .
-<http://example.com/pestRiskPath/06bcd496-a591-4d0d-89c5-e6c48c5e8b4a> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.com/pestRiskPath> .
-<http://example.com/pestRiskPath/c14cba4c-5007-4aa9-a248-0b8b8cb6ff13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://example.com/pestRiskPath/c14cba4c-5007-4aa9-a248-0b8b8cb6ff13> <http://www.w3.org/2004/02/skos/core#prefLabel> "Water dispersal"@en .
-<http://example.com/pestRiskPath/c14cba4c-5007-4aa9-a248-0b8b8cb6ff13> <http://www.w3.org/2004/02/skos/core#definition> "The spread of marine and aquatic pests, including ballast water discharge, biofouling on vessels, and aquaculture operations, as well as natural dispersal via currents and debris"@en .
-<http://example.com/pestRiskPath/c14cba4c-5007-4aa9-a248-0b8b8cb6ff13> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.com/pestRiskPath> .
-<http://example.com/pestRiskPath/8c78873e-edac-4064-b5aa-208507eec595> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://example.com/pestRiskPath/8c78873e-edac-4064-b5aa-208507eec595> <http://www.w3.org/2004/02/skos/core#prefLabel> "Storm water"@en .
-<http://example.com/pestRiskPath/8c78873e-edac-4064-b5aa-208507eec595> <http://www.w3.org/2004/02/skos/core#definition> "Stormwater affect pest dynamics by altering conditions for aquatic animals and other ecological interactions."@en .
-<http://example.com/pestRiskPath/8c78873e-edac-4064-b5aa-208507eec595> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.com/pestRiskPath> .
-<http://example.com/pestRiskPath/8c78873e-edac-4064-b5aa-208507eec595> <http://www.w3.org/2004/02/skos/core#broader> <http://example.com/pestRiskPath/c14cba4c-5007-4aa9-a248-0b8b8cb6ff13> .
-<http://example.com/pestRiskPath/a8fa89bf-f9d5-4bff-a447-b5e0c9d0969e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://example.com/pestRiskPath/a8fa89bf-f9d5-4bff-a447-b5e0c9d0969e> <http://www.w3.org/2004/02/skos/core#prefLabel> "Passengers"@en .
-<http://example.com/pestRiskPath/a8fa89bf-f9d5-4bff-a447-b5e0c9d0969e> <http://www.w3.org/2004/02/skos/core#definition> "Pests may be dispersed via luggage or by being attached to passenger clothing or belongings."@en .
-<http://example.com/pestRiskPath/a8fa89bf-f9d5-4bff-a447-b5e0c9d0969e> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.com/pestRiskPath> .
-<http://example.com/pestRiskPath/a8fa89bf-f9d5-4bff-a447-b5e0c9d0969e> <http://www.w3.org/2004/02/skos/core#broader> <http://example.com/pestRiskPath/2687143e-8f91-4c7a-8caa-e387cfea7ad8> .
+@prefix : <http://example.com/pestRiskPath/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+:0cade264-c648-4417-be04-063e9ca458b1 a skos:Concept ;
+    skos:definition "Dispersal of pests by animals."@en ;
+    skos:inScheme <http://example.com/pestRiskPath> ;
+    skos:prefLabel "Animal dispersal"@en ;
+    skos:topConceptOf <http://example.com/pestRiskPath> .
+
+:157a5f8d-49ba-4666-9ae6-1be40d7ac6c7 a skos:Concept ;
+    skos:prefLabel "Spore dispersal"@en .
+
+:3a0b843e-665b-4c2e-b8a6-e97a572cf58e a skos:Concept ;
+    skos:broader :2687143e-8f91-4c7a-8caa-e387cfea7ad8 ;
+    skos:definition "Cargo"@en ;
+    skos:inScheme <http://example.com/pestRiskPath> ;
+    skos:prefLabel "Cargo"@en .
+
+:81df7d51-87ba-43e7-9f5c-b192dd5b4b64 a skos:Concept ;
+    skos:definition "Plants that support the growth and development of pests, acting as a source of food, shelter, and sometimes even a breeding ground."@en ;
+    skos:inScheme <http://example.com/pestRiskPath> ;
+    skos:prefLabel "Plant hosts"@en .
+
+:2687143e-8f91-4c7a-8caa-e387cfea7ad8 a skos:Concept ;
+    skos:definition "Dispersal of pests through various activities, including the intentional and unintentional transport of commodities, plants, and other items."@en ;
+    skos:prefLabel "Human dispersal"@en .
+
+<http://example.com/pestRiskPath> a skos:ConceptScheme ;
+    skos:definition "A vocabulary describing various structures, modes and activities that introduce unwanted pests, weeds and diseases."@en ;
+    skos:prefLabel "Pest Risk Pathway"@en .
