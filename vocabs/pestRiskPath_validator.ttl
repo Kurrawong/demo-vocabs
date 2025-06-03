@@ -1,0 +1,52 @@
+@prefix : <http://example.com/pestRiskPath/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# This is a vocabulary used to demonstrate SHACL VocPub validator. The validator should show 9 results: 4 violations, 5 warnings, 0 informations.
+# Last updated by Les Kneebone, 2025-06-03
+
+:157a5f8d-49ba-4666-9ae6-1be40d7ac6c7 a skos:Concept ;
+    skos:prefLabel "Spore dispersal"@en .
+
+:0cade264-c648-4417-be04-063e9ca458b1 a skos:Concept ;
+    skos:definition "Dispersal of pests by animals."@en ;
+    skos:inScheme <http://example.com/pestRiskPath> ;
+    skos:prefLabel "Animal dispersal"@en ;
+    skos:topConceptOf <http://example.com/pestRiskPath> .
+
+:3a0b843e-665b-4c2e-b8a6-e97a572cf58e a skos:Concept ;
+    skos:broader :2687143e-8f91-4c7a-8caa-e387cfea7ad8 ;
+    skos:definition "Cargo"@en ;
+    skos:inScheme <http://example.com/pestRiskPath> ;
+    skos:prefLabel "Cargo"@en .
+
+:81df7d51-87ba-43e7-9f5c-b192dd5b4b64 a skos:Concept ;
+    skos:definition "Plants that support the growth and development of pests, acting as a source of food, shelter, and sometimes even a breeding ground."@en ;
+    skos:inScheme <http://example.com/pestRiskPath> ;
+    skos:prefLabel "Plant hosts"@en ;
+    skos:topConceptOf <http://example.com/pestRiskPath> .
+
+:2687143e-8f91-4c7a-8caa-e387cfea7ad8 a skos:Concept ;
+    skos:definition "Dispersal of pests through various activities, including the intentional and unintentional transport of commodities, plants, and other items."@en ;
+    skos:prefLabel "Human dispersal"@en ;
+    skos:inScheme <http://example.com/pestRiskPath> ;
+    skos:topConceptOf <http://example.com/pestRiskPath> .
+
+<http://example.com/pestRiskPath> a skos:ConceptScheme ;
+    skos:definition "A vocabulary describing various structures, modes and activities that introduce unwanted pests, weeds and diseases."@en ;
+    skos:prefLabel "Pest Risk Pathway"@en ;
+    skos:hasTopConcept 
+      :2687143e-8f91-4c7a-8caa-e387cfea7ad8, 
+      :0cade264-c648-4417-be04-063e9ca458b1, 
+      :81df7d51-87ba-43e7-9f5c-b192dd5b4b64 ; 
+    dcterms:created "2024-11-21T00:00:00Z"^^xsd:dateTime ;
+    dcterms:modified "2024-12-21T00:00:00Z"^^xsd:dateTime ;
+    dcterms:creator <https://kurrawong.ai> ;
+    sdo:publisher <https://kurrawong.ai> .
+    
+    <https://kurrawong.ai>
+    a sdo:Organization ;
+    sdo:name "KurrawongAI"^^xsd:string ;
+    sdo:url "kurrawong.ai"^^xsd:anyURI .
