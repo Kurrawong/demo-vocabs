@@ -1,3 +1,5 @@
+#for training exercises at https://docs.kurrawong.ai. this vocab is intentionally missing various elements that are added through exercises.
+
 @prefix : <http://example.com/pestRiskPath/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
@@ -26,5 +28,4 @@
     skos:prefLabel "Human dispersal"@en .
 
 <http://example.com/pestRiskPath> a skos:ConceptScheme ;
-    skos:definition "A vocabulary describing various structures, modes and activities that introduce unwanted pests, weeds and diseases."@en ;
     skos:prefLabel "Pest Risk Pathway"@en .
