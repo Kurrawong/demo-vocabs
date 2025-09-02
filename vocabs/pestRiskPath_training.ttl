@@ -27,5 +27,11 @@
     skos:definition "Dispersal of pests through various activities, including the intentional and unintentional transport of commodities, plants, and other items."@en ;
     skos:prefLabel "Human dispersal"@en .
 
+:c380542f-21b3-475e-8fd0-cbcb48aff26e a skos:Concept ;
+    skos:definition "Wildlife trafficking refers to the exchange of products derived from non-domesticated animals or plants usually extracted from their natural environment or raised under controlled conditions. "@en ;
+    skos:prefLabel "Wildlife trafficking" ;
+    skos:inScheme <http://example.com/pestRiskPath> ;
+    skos:topConceptOf <http://example.com/pestRiskPath> .
+
 <http://example.com/pestRiskPath> a skos:ConceptScheme ;
     skos:prefLabel "Pest Risk Pathway"@en .
