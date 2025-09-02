@@ -33,5 +33,11 @@
     skos:inScheme <http://example.com/pestRiskPath> ;
     skos:topConceptOf <http://example.com/pestRiskPath> .
 
+:8d5414e0-68f7-46ed-a9ac-2e17efc7b927 a skos:Concept ;
+    skos:prefLabel "Storm water"@en ;
+    skos:definition "Stormwater, also written storm water, is water that originates from precipitation (storm), including heavy rain and meltwater from hail and snow."@en ;
+    skos:inScheme <http://example.com/pestRiskPath> ;
+    skos:topConceptOf <http://example.com/pestRiskPath> .
+
 <http://example.com/pestRiskPath> a skos:ConceptScheme ;
     skos:prefLabel "Pest Risk Pathway"@en .
